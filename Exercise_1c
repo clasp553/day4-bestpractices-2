@@ -1,0 +1,4 @@
+Python: 18.99473810195923
+Scipy: 0.34231114387512207
+
+Using lineprofiler, I can see that in the naive Python implementation, the for loop including r += (X[j, d] - X[i, d]) ** 2 in the rbf_network function is what is taking the longest.
